@@ -1,0 +1,9 @@
+#!/bin/sh
+mkdir -p pages
+for run in first second third fourth fifth
+do
+    for page in $(seq 35)
+    do
+        curl 'https://jlcpcb.com/api/overseas-pcb-order/v1/shoppingCart/smtGood/selectSmtComponentList' -X POST -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0' -H 'Accept: application/json, text/plain, */*' -H 'Accept-Language: en-GB,en;q=0.5' -H 'Accept-Encoding: gzip, deflate, br' -H 'Content-Type: application/json' -H 'secretkey: 66393062626661362d333130312d346534362d393335322d363731316566336363353739' -H 'X-XSRF-TOKEN: e6534974-38ef-4f78-b9ff-02b1c4b222bf' -H 'Origin: https://jlcpcb.com' -H 'DNT: 1' -H 'Connection: keep-alive' -H 'Referer: https://jlcpcb.com/parts/basic_parts' -H 'Cookie: jlc_customer_code=2661708A; jlc_session_code=WAltRd7HdyLUQcvYRIzynA%3D%3D; client_login_info=%7B%22login_time%22%3A%222023-05-23+21%3A08%3A52%22%2C%22customer_code%22%3A%222661708A%22%7D; nowMoneyName=%24; iconCountryExchangeRateFlag=USD; nowExchangeRate=1; cookieNote=true; isPay=1; JSESSIONID=2A0266E933D2F79B4A7BCEDF3760653F; JLCPCB_SESSION_ID=ef9e85aa-bd0b-43c0-ac6f-f313458e0d4f; ONEKEYID=60ca1f48-26d6-4a06-aa38-0b1ede3af626; mkurl=https%3A%2F%2Fduckduckgo.com%2F%2Chttp%3A%2F%2Fapi.jlcpcb.com%2Fclient%2Findex.html%2C2023-05-21+09%3A23%3A52; __stripe_mid=becb607e-40d8-4188-a1c2-cfe4cf2f75f09fda44; XSRF-TOKEN=e6534974-38ef-4f78-b9ff-02b1c4b222bf' -H 'Sec-Fetch-Dest: empty' -H 'Sec-Fetch-Mode: cors' -H 'Sec-Fetch-Site: same-origin' -H 'Pragma: no-cache' -H 'Cache-Control: no-cache' -H 'TE: trailers' --data-raw '{"currentPage":'$page',"pageSize":25,"keyword":null,"firstSortName":"","firstSortNameNew":"","firstSortId":"","secondSortName":"","searchSource":"search","componentAttributes":[],"componentLibraryType":"base","stockFlag":null,"stockSort":null,"componentBrand":null,"componentSpecification":null}' > "pages/$run-run-page-$page.json"
+    done
+done
