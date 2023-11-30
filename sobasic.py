@@ -3,7 +3,7 @@
 import dataclasses
 import json
 from typing import TextIO, List, Dict
-
+import os
 
 @dataclasses.dataclass
 class Component:
@@ -46,17 +46,18 @@ def append_entries(f: TextIO, table: Dict[str, Component]):
 
 def main(subdir="pages"):
     running_table = {}
-    for index in range(1, 25):
-        with open(f"{subdir}/first-run-page-{index}.json") as f:
+    for filename in [f for f in os.listdir(subdir) if os.path.isfile(os.path.join(subdir, f))]:
+    # for index in range(1, 25):
+        with open(os.path.join(subdir, filename)) as f:
             append_entries(f, running_table)
-        with open(f"{subdir}/second-run-page-{index}.json") as f:
-            append_entries(f, running_table)
-        with open(f"{subdir}/third-run-page-{index}.json") as f:
-            append_entries(f, running_table)
-        with open(f"{subdir}/fourth-run-page-{index}.json") as f:
-            append_entries(f, running_table)
-        with open(f"{subdir}/fifth-run-page-{index}.json") as f:
-            append_entries(f, running_table)
+        # with open(f"{subdir}/second-run-page-{index}.json") as f:
+        #     append_entries(f, running_table)
+        # with open(f"{subdir}/third-run-page-{index}.json") as f:
+        #     append_entries(f, running_table)
+        # with open(f"{subdir}/fourth-run-page-{index}.json") as f:
+        #     append_entries(f, running_table)
+        # with open(f"{subdir}/fifth-run-page-{index}.json") as f:
+        #     append_entries(f, running_table)
 
     print(f"There are {len(running_table)} components")
 
