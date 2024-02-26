@@ -72,7 +72,7 @@ def main(subdir="pages"):
     for kind in kind_list:
         print(f"{kind}")
         entries = kinds[kind]
-        entries.sort(key=lambda entry: entry.description)
+        entries.sort(key=lambda entry: (entry.description, entry.brand, entry.lcsc_part_number))
         for entry in entries:
             print(
                 f"    {entry.part_number}: {entry.description} -- {entry.brand} / {entry.lcsc_part_number}"
