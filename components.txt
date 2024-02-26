@@ -20,8 +20,8 @@ Bipolar Transistors - BJT
     S8550: 25V 300mW 120@50mA,1V 500mA PNP SOT-23  Bipolar Transistors - BJT ROHS -- Jiangsu Changjing Electronics Technology co., ltd. / C105432
     SS8050: 25V 300mW 200@100mA,1V 1.5A NPN SOT-23  Bipolar Transistors - BJT ROHS -- Jiangsu Changjing Electronics Technology co., ltd. / C2150
     SS8550 Y2: 25V 300mW 200@100mA,1V 1.5A PNP SOT-23  Bipolar Transistors - BJT ROHS -- Jiangsu Changjing Electronics Technology co., ltd. / C8542
-    S9013 J3: 25V 300mW 200@50mA,1V 500mA NPN SOT-23  Bipolar Transistors - BJT ROHS -- Jiangsu Changjing Electronics Technology co., ltd. / C6749
     S8050 J3Y: 25V 300mW 200@50mA,1V 500mA NPN SOT-23  Bipolar Transistors - BJT ROHS -- Jiangsu Changjing Electronics Technology co., ltd. / C2146
+    S9013 J3: 25V 300mW 200@50mA,1V 500mA NPN SOT-23  Bipolar Transistors - BJT ROHS -- Jiangsu Changjing Electronics Technology co., ltd. / C6749
     S9012 2T1: 25V 300mW 200@50mA,1V 500mA PNP SOT-23  Bipolar Transistors - BJT ROHS -- Jiangsu Changjing Electronics Technology co., ltd. / C8543
     S8050-J3Y: 25V 300mW 500mA NPN SOT-23  Bipolar Transistors - BJT ROHS -- Mdd / C364312
     C9634: 30V 500mW 3A NPN SOT-89-3  Bipolar Transistors - BJT ROHS -- Jiangsu Changjing Electronics Technology co., ltd. / C9634
@@ -416,8 +416,8 @@ LCD Drivers
     HT1621B: 60uA 32x4 bit 3线串行接口 2.4V~5.2V LQFP-48(7x7)  LCD Drivers ROHS -- Holtek Semicon / C7532
 Light Emitting Diodes (LED)
     KT-0603R: -40℃~+85℃ Red 0603  Light Emitting Diodes (LED) ROHS -- Hubei Kento Elec / C2286
-    19-217/GHC-YR1S2/6T: 0603  Light Emitting Diodes (LED) ROHS -- Everlight Elec / C2986059
     19-217/BHC-ZL1M2RY/6T: 0603  Light Emitting Diodes (LED) ROHS -- Everlight Elec / C2986058
+    19-217/GHC-YR1S2/6T: 0603  Light Emitting Diodes (LED) ROHS -- Everlight Elec / C2986059
     KT-0805W: 0805  Light Emitting Diodes (LED) ROHS -- Hubei Kento Elec / C34499
     19-217/GHC-YR1S2/3T: 199mcd 无色透明透镜 -40℃~+85℃ 520nm~535nm Emerald 120° 110mW 0603  Light Emitting Diodes (LED) ROHS -- Everlight Elec / C72043
     NCD0805R1: Colorless transparence 67mcd~195mcd -30℃~+85℃ 615nm~630nm Red 130° 65mW 0805  Light Emitting Diodes (LED) ROHS -- Foshan Nationstar Optoelectronics / C84256
@@ -616,14 +616,14 @@ Optocouplers
 Optocouplers - Phototransistor Output
     EL817S1(C)(TU)-F: 35V 5000V 50mA 0.1V@1mA,20mA 1 6V 1.2V DC SMD-4P  Optocouplers - Phototransistor Output ROHS -- Everlight Elec / C106900
     EL3H7(B)(TA)-G: 80V 3750V 50mA 0.1V@1mA,10mA 1 6V 1.2V DC SOP-4-1.27mm  Optocouplers - Phototransistor Output ROHS -- Everlight Elec / C32565
-    EL357N(B)(TA)-G: 80V 3750V 50mA 0.1V@1mA,20mA 1 6V 1.2V DC SOP-4-2.54mm  Optocouplers - Phototransistor Output ROHS -- Everlight Elec / C6649
     EL357N(C)(TA)-G: 80V 3750V 50mA 0.1V@1mA,20mA 1 6V 1.2V DC SOP-4-2.54mm  Optocouplers - Phototransistor Output ROHS -- Everlight Elec / C29981
+    EL357N(B)(TA)-G: 80V 3750V 50mA 0.1V@1mA,20mA 1 6V 1.2V DC SOP-4-2.54mm  Optocouplers - Phototransistor Output ROHS -- Everlight Elec / C6649
 Precision OpAmps
     OP07CDR: 600kHz 1.8nA 1 SOP-8  Precision OpAmps ROHS -- Texas Instruments / C7433
 RS-485/RS-422 ICs
     SN75176BDR: transceiver 1/1 SOP-8  RS-485/RS-422 ICs ROHS -- Texas Instruments / C7063
-    SP3485EN-L/TR: transceiver 10Mbps 1/1 SOP-8  RS-485/RS-422 ICs ROHS -- Maxlinear / C8963
     SP485EEN-L/TR: transceiver 10Mbps 1/1 SOP-8  RS-485/RS-422 ICs ROHS -- Maxlinear / C6855
+    SP3485EN-L/TR: transceiver 10Mbps 1/1 SOP-8  RS-485/RS-422 ICs ROHS -- Maxlinear / C8963
 RS232 ICs
     MAX232ESE+T: 120Kbps transceiver 2/2 SOIC-16  RS232 ICs ROHS -- Analog Devices inc./maxim Integrated / C26860
     SP3232EEY-L/TR: 235Kbps transceiver 2/2 TSSOP-16  RS232 ICs ROHS -- Maxlinear / C13482
@@ -645,8 +645,8 @@ Schottky Barrier Diodes (SBD)
     BAT54S: 30V Dual 200mA 0.4V@10mA SOT-23(TO-236)  Schottky Barrier Diodes (SBD) ROHS -- Hongjiacheng / C7420333
     BAT54C,215: 30V Dual Common Cathode 800mV@100mA 200mA SOT-23(TO-236)  Schottky Barrier Diodes (SBD) ROHS -- Nexperia / C37704
     SS54: 40V 550mV@5A 5A SMA(DO-214AC)  Schottky Barrier Diodes (SBD) ROHS -- Mdd / C22452
-    B5819W: 40V 600mV@1A 1A SOD-123  Schottky Barrier Diodes (SBD) ROHS -- Mdd / C64885
     B5819W SL: 40V 600mV@1A 1A SOD-123  Schottky Barrier Diodes (SBD) ROHS -- Jiangsu Changjing Electronics Technology co., ltd. / C8598
+    B5819W: 40V 600mV@1A 1A SOD-123  Schottky Barrier Diodes (SBD) ROHS -- Mdd / C64885
     1N5819WS: 40V 600mV@1A 1A SOD-323  Schottky Barrier Diodes (SBD) ROHS -- Guangdong Hottech / C191023
     B5819WS: 40V 600mV@1A 1A SOD-323  Schottky Barrier Diodes (SBD) ROHS -- Mdd / C64886
     SS24: 40V Single 0.55V@1.0A 2A SMA  Schottky Barrier Diodes (SBD) ROHS -- Hongjiacheng / C7420362
@@ -668,8 +668,8 @@ Shifting Register
     74HC165D,653: 8 2V~6V 1 ParallelorSerialtoSerial SOP-16  Shifting Register ROHS -- Nexperia / C5613
     74HC595D,118: 8 2V~6V 1 串行至并行或串行 SOP-16  Shifting Register ROHS -- Nexperia / C5947
 Switching Diode
-    1N4148WS: 100V 200mW Single 1.25V@150mA 4ns 150mA SOD-323  Switching Diode ROHS -- Jiangsu Changjing Electronics Technology co., ltd. / C2128
     1N4148WS: 100V 200mW Single 1.25V@150mA 4ns 150mA SOD-323  Switching Diode ROHS -- Hongjiacheng / C7420319
+    1N4148WS: 100V 200mW Single 1.25V@150mA 4ns 150mA SOD-323  Switching Diode ROHS -- Jiangsu Changjing Electronics Technology co., ltd. / C2128
     BAV99: 100V 225mW Dual 1.25V@150mA 4ns 200mA SOT-23(TO-236)  Switching Diode ROHS -- Hongjiacheng / C7420336
     BAV70: 100V 225mW Dual Common Cathode 1.25V@150mA 4ns 200mA SOT-23(TO-236)  Switching Diode ROHS -- Hongjiacheng / C7420335
     BAV99,215: 100V 250mW Dual 1.25V@150mA 4ns 215mA SOT-23(TO-236)  Switching Diode ROHS -- Nexperia / C2500
