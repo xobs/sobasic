@@ -1,4 +1,4 @@
-There are 656 components
+There are 660 components
 Analog Switches / Multiplexers
     CD4051BM96: 1 240Ω SOP-16  Analog Switches / Multiplexers ROHS -- Texas Instruments / C21379
     CD4052BM96: 2 240Ω 单刀四掷(SP4T) SOP-16  Analog Switches / Multiplexers ROHS -- Texas Instruments / C6521
@@ -20,8 +20,8 @@ Bipolar Transistors - BJT
     S8550: 25V 300mW 120@50mA,1V 500mA PNP SOT-23  Bipolar Transistors - BJT ROHS -- Jiangsu Changjing Electronics Technology co., ltd. / C105432
     SS8050: 25V 300mW 200@100mA,1V 1.5A NPN SOT-23  Bipolar Transistors - BJT ROHS -- Jiangsu Changjing Electronics Technology co., ltd. / C2150
     SS8550 Y2: 25V 300mW 200@100mA,1V 1.5A PNP SOT-23  Bipolar Transistors - BJT ROHS -- Jiangsu Changjing Electronics Technology co., ltd. / C8542
-    S8050 J3Y: 25V 300mW 200@50mA,1V 500mA NPN SOT-23  Bipolar Transistors - BJT ROHS -- Jiangsu Changjing Electronics Technology co., ltd. / C2146
     S9013 J3: 25V 300mW 200@50mA,1V 500mA NPN SOT-23  Bipolar Transistors - BJT ROHS -- Jiangsu Changjing Electronics Technology co., ltd. / C6749
+    S8050 J3Y: 25V 300mW 200@50mA,1V 500mA NPN SOT-23  Bipolar Transistors - BJT ROHS -- Jiangsu Changjing Electronics Technology co., ltd. / C2146
     S9012 2T1: 25V 300mW 200@50mA,1V 500mA PNP SOT-23  Bipolar Transistors - BJT ROHS -- Jiangsu Changjing Electronics Technology co., ltd. / C8543
     S8050-J3Y: 25V 300mW 500mA NPN SOT-23  Bipolar Transistors - BJT ROHS -- Mdd / C364312
     C9634: 30V 500mW 3A NPN SOT-89-3  Bipolar Transistors - BJT ROHS -- Jiangsu Changjing Electronics Technology co., ltd. / C9634
@@ -37,15 +37,16 @@ Bipolar Transistors - BJT
     MMBT3904: null null 100@10mA,1.0V null NPN SOT-23(TO-236)  Bipolar Transistors - BJT ROHS -- Hongjiacheng / C7420353
 Bridge Rectifiers
     MB10S: 35A 1.1V@400mA 1A 1kV MBS  Bridge Rectifiers ROHS -- Mdd / C2488
-    DB107S: 50A 1.1V@1A 1A 1kV DBS  Bridge Rectifiers ROHS -- mdd（microdiode electronics） / C5377
+    DB107S: 50A 1.1V@1A 1A 1kV DBS  Bridge Rectifiers ROHS -- Mdd / C5377
 Buffer/Driver/Transceiver
     74HC245D,653: SOP-20-300mil  Buffer/Driver/Transceiver ROHS -- Nexperia / C5625
 CAN ICs
-    SN65HVD230DR: 1Mbps Transceiver SOP-8  CAN ICs ROHS -- Texas Instruments / C12084
+    SN65HVD230DR: 1Mbps Transceiver SOIC-8  CAN ICs ROHS -- Texas Instruments / C12084
     TJA1050T/CM,118: Transceiver SOP-8  CAN ICs ROHS -- Nxp Semicon / C6952
 Chip Resistor - Surface Mount
     0603WAF1602T5E: 0603 Chip Resistor - Surface Mount ROHS -- uni-royal(uniroyal elec) / C22818
     0805W8F750JT5E: 0805 Chip Resistor - Surface Mount ROHS -- uni-royal(uniroyal elec) / C20638
+    0603WAF1001T5E: 100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 1kΩ 0603  Chip Resistor - Surface Mount ROHS -- uni-royal(uniroyal elec) / C21190
     0603WAF0000T5E: 100mW Thick Film Resistors ±1% 0Ω 0603  Chip Resistor - Surface Mount ROHS -- uni-royal(uniroyal elec) / C21189
     0603WAF1000T5E: 100mW Thick Film Resistors ±1% ±200ppm/℃ 100Ω 0603  Chip Resistor - Surface Mount ROHS -- uni-royal(uniroyal elec) / C22775
     0603WAF270JT5E: 100mW Thick Film Resistors ±1% ±200ppm/℃ 27Ω 0603  Chip Resistor - Surface Mount ROHS -- uni-royal(uniroyal elec) / C25190
@@ -81,7 +82,6 @@ Chip Resistor - Surface Mount
     0603WAF1800T5E: 100mW Thick Film Resistors ±100ppm/℃ ±1% 180Ω 0603  Chip Resistor - Surface Mount ROHS -- uni-royal(uniroyal elec) / C22828
     0603WAF1802T5E: 100mW Thick Film Resistors ±100ppm/℃ ±1% 18kΩ 0603  Chip Resistor - Surface Mount ROHS -- uni-royal(uniroyal elec) / C25810
     0603WAF1004T5E: 100mW Thick Film Resistors ±100ppm/℃ ±1% 1MΩ 0603  Chip Resistor - Surface Mount ROHS -- uni-royal(uniroyal elec) / C22935
-    0603WAF1001T5E: 100mW Thick Film Resistors ±100ppm/℃ ±1% 1kΩ 0603  Chip Resistor - Surface Mount ROHS -- uni-royal(uniroyal elec) / C21190
     0603WAF2204T5E: 100mW Thick Film Resistors ±100ppm/℃ ±1% 2.2MΩ 0603  Chip Resistor - Surface Mount ROHS -- uni-royal(uniroyal elec) / C22938
     0603WAF2201T5E: 100mW Thick Film Resistors ±100ppm/℃ ±1% 2.2kΩ 0603  Chip Resistor - Surface Mount ROHS -- uni-royal(uniroyal elec) / C4190
     0603WAF2401T5E: 100mW Thick Film Resistors ±100ppm/℃ ±1% 2.4kΩ 0603  Chip Resistor - Surface Mount ROHS -- uni-royal(uniroyal elec) / C22940
@@ -259,7 +259,7 @@ Chip Resistor - Surface Mount
     0805W8F8202T5E: 125mW Thick Film Resistors ±100ppm/℃ ±1% 82kΩ 0805  Chip Resistor - Surface Mount ROHS -- uni-royal(uniroyal elec) / C17840
     0805W8F9101T5E: 125mW Thick Film Resistors ±100ppm/℃ ±1% 9.1kΩ 0805  Chip Resistor - Surface Mount ROHS -- uni-royal(uniroyal elec) / C17855
     0805W8F0000T5E: 125mW Thick Film Resistors ±800ppm/℃ ±1% 0Ω 0805  Chip Resistor - Surface Mount ROHS -- uni-royal(uniroyal elec) / C17477
-    1206W4F1001T5E: 250mW Thick Film Resistors ±1% 1kΩ 1206  Chip Resistor - Surface Mount ROHS -- uni-royal(uniroyal elec) / C4410
+    1206W4F1001T5E: 250mW Thick Film Resistors 200V ±1% 1000Ω 1206  Chip Resistor - Surface Mount ROHS -- uni-royal(uniroyal elec) / C4410
     1206W4F100JT5E: 250mW Thick Film Resistors ±1% ±400ppm/℃ 10Ω 1206  Chip Resistor - Surface Mount ROHS -- uni-royal(uniroyal elec) / C17903
     1206W4F1204T5E: 250mW Thick Film Resistors ±100ppm/℃ ±1% 1.2MΩ 1206  Chip Resistor - Surface Mount ROHS -- uni-royal(uniroyal elec) / C22107
     1206W4F1003T5E: 250mW Thick Film Resistors ±100ppm/℃ ±1% 100kΩ 1206  Chip Resistor - Surface Mount ROHS -- uni-royal(uniroyal elec) / C17900
@@ -365,7 +365,7 @@ Digital Isolators
 Diodes - Fast Recovery Rectifiers
     RS1M: 1.3V@1.0A 500ns null null 1000V SMA  Diodes - Fast Recovery Rectifiers ROHS -- Hongjiacheng / C7420358
     RS2M: 1.3V@2.0A 500ns null 2A 1000V SMA  Diodes - Fast Recovery Rectifiers ROHS -- Hongjiacheng / C7420359
-    US1M: 1.7V@1A 75ns Single 1A 1kV SMA  Diodes - Fast Recovery Rectifiers ROHS -- mdd（microdiode electronics） / C412437
+    US1M: 1.7V@1A 75ns Single 1A 1kV SMA  Diodes - Fast Recovery Rectifiers ROHS -- Mdd / C412437
     ES2J: 1.7V@2.0A 35ns null 2A 1000V SMA  Diodes - Fast Recovery Rectifiers ROHS -- Hongjiacheng / C7420341
     ES2JF: 1.7V@2.0A 35ns null 2A 1000V SMAF  Diodes - Fast Recovery Rectifiers ROHS -- Hongjiacheng / C7420342
 Diodes - General Purpose
@@ -416,6 +416,8 @@ LCD Drivers
     HT1621B: 60uA 32x4 bit 3线串行接口 2.4V~5.2V LQFP-48(7x7)  LCD Drivers ROHS -- Holtek Semicon / C7532
 Light Emitting Diodes (LED)
     KT-0603R: -40℃~+85℃ Red 0603  Light Emitting Diodes (LED) ROHS -- Hubei Kento Elec / C2286
+    19-217/GHC-YR1S2/6T: 0603  Light Emitting Diodes (LED) ROHS -- Everlight Elec / C2986059
+    19-217/BHC-ZL1M2RY/6T: 0603  Light Emitting Diodes (LED) ROHS -- Everlight Elec / C2986058
     KT-0805W: 0805  Light Emitting Diodes (LED) ROHS -- Hubei Kento Elec / C34499
     19-217/GHC-YR1S2/3T: 199mcd 无色透明透镜 -40℃~+85℃ 520nm~535nm Emerald 120° 110mW 0603  Light Emitting Diodes (LED) ROHS -- Everlight Elec / C72043
     NCD0805R1: Colorless transparence 67mcd~195mcd -30℃~+85℃ 615nm~630nm Red 130° 65mW 0805  Light Emitting Diodes (LED) ROHS -- Foshan Nationstar Optoelectronics / C84256
@@ -449,8 +451,8 @@ MOSFETs
     BSS84: null 0.17A 8Ω@10V,0.17A 225mW P Channel SOT-23(TO-236)  MOSFETs ROHS -- Hongjiacheng / C7420340
     HL2301A: null 2.3A 0.7W 112mΩ@4.5V,2.3A P Channel SOT-23(TO-236)  MOSFETs ROHS -- Hongjiacheng / C7420344
     2N7002W: null 340mA 2.5Ω@10V,0.34A 150mW null SOT-323  MOSFETs ROHS -- Hongjiacheng / C7420322
-    BSS138: null 340mA 2.5Ω@10V,0.34A 350mW null SOT-23(TO-236)  MOSFETs ROHS -- Hongjiacheng / C7420339
     2N7002: null 340mA 2.5Ω@10V,0.34A 350mW null SOT-23(TO-236)  MOSFETs ROHS -- Hongjiacheng / C7420321
+    BSS138: null 340mA 2.5Ω@10V,0.34A 350mW null SOT-23(TO-236)  MOSFETs ROHS -- Hongjiacheng / C7420339
     MDD2301: null 3A 70mΩ@4.5V P Channel SOT-23  MOSFETs ROHS -- Mdd / C427391
     HL2300: null 4.5A 25mΩ@4.5V,4.5A 1W null SOT-23(TO-236)  MOSFETs ROHS -- Hongjiacheng / C7420343
     MDD2302: null 4A 25mΩ@4.5V null SOT-23  MOSFETs ROHS -- Mdd / C427390
@@ -607,8 +609,8 @@ Operational Amplifier
     MCP6002T-I/SN: 1pA 2 1MHz 轨到轨 SOP-8  Operational Amplifier ROHS -- Microchip Tech / C7377
     NE5532DR: 200nA 2 10MHz SOP-8  Operational Amplifier ROHS -- Texas Instruments / C7426
     LM324DT: 20nA 4 1.3MHz SOP-14  Operational Amplifier ROHS -- Stmicroelectronics / C71035
-    LM358DR2G: 45nA 2 1MHz SOP-8  Operational Amplifier ROHS -- Onsemi / C7950
     LM2904DR2G: 45nA 2 1MHz SOP-8  Operational Amplifier ROHS -- Onsemi / C18229
+    LM358DR2G: 45nA 2 1MHz SOP-8  Operational Amplifier ROHS -- Onsemi / C7950
 Optocouplers
     6N137S1(TA): Optocouplers SMD RoHS -- Everlight Elec / C110020
 Optocouplers - Phototransistor Output
@@ -620,8 +622,8 @@ Precision OpAmps
     OP07CDR: 600kHz 1.8nA 1 SOP-8  Precision OpAmps ROHS -- Texas Instruments / C7433
 RS-485/RS-422 ICs
     SN75176BDR: transceiver 1/1 SOP-8  RS-485/RS-422 ICs ROHS -- Texas Instruments / C7063
-    SP485EEN-L/TR: transceiver 10Mbps 1/1 SOP-8  RS-485/RS-422 ICs ROHS -- Maxlinear / C6855
     SP3485EN-L/TR: transceiver 10Mbps 1/1 SOP-8  RS-485/RS-422 ICs ROHS -- Maxlinear / C8963
+    SP485EEN-L/TR: transceiver 10Mbps 1/1 SOP-8  RS-485/RS-422 ICs ROHS -- Maxlinear / C6855
 RS232 ICs
     MAX232ESE+T: 120Kbps transceiver 2/2 SOIC-16  RS232 ICs ROHS -- Analog Devices inc./maxim Integrated / C26860
     SP3232EEY-L/TR: 235Kbps transceiver 2/2 TSSOP-16  RS232 ICs ROHS -- Maxlinear / C13482
@@ -643,10 +645,10 @@ Schottky Barrier Diodes (SBD)
     BAT54S: 30V Dual 200mA 0.4V@10mA SOT-23(TO-236)  Schottky Barrier Diodes (SBD) ROHS -- Hongjiacheng / C7420333
     BAT54C,215: 30V Dual Common Cathode 800mV@100mA 200mA SOT-23(TO-236)  Schottky Barrier Diodes (SBD) ROHS -- Nexperia / C37704
     SS54: 40V 550mV@5A 5A SMA(DO-214AC)  Schottky Barrier Diodes (SBD) ROHS -- Mdd / C22452
-    B5819W SL: 40V 600mV@1A 1A SOD-123  Schottky Barrier Diodes (SBD) ROHS -- Jiangsu Changjing Electronics Technology co., ltd. / C8598
     B5819W: 40V 600mV@1A 1A SOD-123  Schottky Barrier Diodes (SBD) ROHS -- Mdd / C64885
-    B5819WS: 40V 600mV@1A 1A SOD-323  Schottky Barrier Diodes (SBD) ROHS -- Mdd / C64886
+    B5819W SL: 40V 600mV@1A 1A SOD-123  Schottky Barrier Diodes (SBD) ROHS -- Jiangsu Changjing Electronics Technology co., ltd. / C8598
     1N5819WS: 40V 600mV@1A 1A SOD-323  Schottky Barrier Diodes (SBD) ROHS -- Guangdong Hottech / C191023
+    B5819WS: 40V 600mV@1A 1A SOD-323  Schottky Barrier Diodes (SBD) ROHS -- Mdd / C64886
     SS24: 40V Single 0.55V@1.0A 2A SMA  Schottky Barrier Diodes (SBD) ROHS -- Hongjiacheng / C7420362
     SS34: 40V Single 0.55V@3.0A 3A SMA  Schottky Barrier Diodes (SBD) ROHS -- Hongjiacheng / C7420365
     SS34B: 40V Single 0.55V@3.0A 3A SMB  Schottky Barrier Diodes (SBD) ROHS -- Hongjiacheng / C7420366
@@ -666,8 +668,8 @@ Shifting Register
     74HC165D,653: 8 2V~6V 1 ParallelorSerialtoSerial SOP-16  Shifting Register ROHS -- Nexperia / C5613
     74HC595D,118: 8 2V~6V 1 串行至并行或串行 SOP-16  Shifting Register ROHS -- Nexperia / C5947
 Switching Diode
-    1N4148WS: 100V 200mW Single 1.25V@150mA 4ns 150mA SOD-323  Switching Diode ROHS -- Hongjiacheng / C7420319
     1N4148WS: 100V 200mW Single 1.25V@150mA 4ns 150mA SOD-323  Switching Diode ROHS -- Jiangsu Changjing Electronics Technology co., ltd. / C2128
+    1N4148WS: 100V 200mW Single 1.25V@150mA 4ns 150mA SOD-323  Switching Diode ROHS -- Hongjiacheng / C7420319
     BAV99: 100V 225mW Dual 1.25V@150mA 4ns 200mA SOT-23(TO-236)  Switching Diode ROHS -- Hongjiacheng / C7420336
     BAV70: 100V 225mW Dual Common Cathode 1.25V@150mA 4ns 200mA SOT-23(TO-236)  Switching Diode ROHS -- Hongjiacheng / C7420335
     BAV99,215: 100V 250mW Dual 1.25V@150mA 4ns 215mA SOT-23(TO-236)  Switching Diode ROHS -- Nexperia / C2500
@@ -675,17 +677,18 @@ Switching Diode
     1N4148W: 100V 400mW Single 1.25V@150mA 4ns 150mA SOD-123  Switching Diode ROHS -- Hongjiacheng / C7420318
     BAV70: 70V 225mW Dual Common Cathode 1.25V@150mA 6ns 200mA SOT-23  Switching Diode ROHS -- Jiangsu Changjing Electronics Technology co., ltd. / C68978
     1N4148W: 75V 400mW Single 1V@50mA 4ns 150mA SOD-123  Switching Diode ROHS -- st(semtech) / C81598
-    LL4148: 75V 500mW 1V@10mA 4ns 0.2A LL-34  Switching Diode ROHS -- st(semtech) / C9808
+    LL4148: 75V 500mW 1V@10mA 4ns 200mA LL-34  Switching Diode ROHS -- st(semtech) / C9808
 TVS
     SMBJ6.0CA: 10.3V 6.67V 6V Bi-Directional SMB(DO-214AA)  TVS ROHS -- Liown / C2925451
     SMF6.0CA: 10.3V 6.67V 6V Bi-Directional SOD-123FL  TVS ROHS -- Liown / C2990473
     P6SMB6.8CA/TR13: 10.5V 6.45V 5.8V SMB(DO-214AA)  TVS ROHS -- Brightking / C78395
     5.0SMDJ64CA: 103V 71.1V 64V SMC(DO-214AB)  TVS ROHS -- Liown / C2990414
+    5KP6.5CA: 11.2V 7.22V 6.5V P600  TVS ROHS -- Liown / C5125145
     SMBJ6.5CA: 11.2V 7.22V 6.5V SMB  TVS ROHS -- Hongjiacheng / C7420377
     SMCJ6.5CA: 11.2V 7.22V 6.5V SMC(DO-214AB)  TVS ROHS -- Liown / C2990124
     5.0SMDJ75CA: 121V 83.3V 75V SMC(DO-214AB)  TVS ROHS -- Liown / C2990416
-    SRV05-4-P-T7: 12V 6V 5V SOT-23-6  TVS ROHS -- Protek Devices / C85364
     PSM712-LF-T7: 19V 13.3V 12V SOT-23(TO-236)  TVS ROHS -- Protek Devices / C32677
+    SRV05-4-P-T7: 1A@8/20us 12V 6V 5V SOT-23-6  TVS ROHS -- Protek Devices / C85364
     SMBJ30CA: 48.4V 33.3V 30V SMB(DO-214AA)  TVS ROHS -- Liown / C2925441
     SMF30CA: 48.4V 33.3V 30V SOD-123FL  TVS ROHS -- Liown / C2990493
     P6SMAJ33CA: 53.3V 36.7V 33V SMA  TVS ROHS -- Liown / C3019524
@@ -704,5 +707,6 @@ USB ICs
 Voltage References
     CJ431: 2.5V~36V ±0.5% 100mA Adjustable SOT-23  Voltage References ROHS -- Jiangsu Changjing Electronics Technology co., ltd. / C3113
 Zener Diodes
+    ZMM3V3PF-M: LL-34  Zener Diodes ROHS -- st(semtech) / C7497475
     ZMM3V3-M: Single 3.1V~3.5V 500mW 3.3V LL-34  Zener Diodes ROHS -- st(semtech) / C8056
     ZMM5V6-M: Single 5.2V~6V 500mW 5.6V LL-34  Zener Diodes ROHS -- st(semtech) / C8062
