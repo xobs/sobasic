@@ -4,6 +4,7 @@ import dataclasses
 import json
 from typing import TextIO, List, Dict
 import os
+import sys
 
 @dataclasses.dataclass
 class Component:
@@ -51,19 +52,12 @@ def append_entries(f: TextIO, table: Dict[str, Component]):
 
 def main(subdir="pages"):
     running_table = {}
+
+    # Fetch all components into `running_table`
     for filename in [f for f in os.listdir(subdir) if os.path.isfile(os.path.join(subdir, f))]:
-    # for index in range(1, 25):
         with open(os.path.join(subdir, filename)) as f:
-            print("Reading", filename)
+            print("Reading", filename, file=sys.stderr)
             append_entries(f, running_table)
-        # with open(f"{subdir}/second-run-page-{index}.json") as f:
-        #     append_entries(f, running_table)
-        # with open(f"{subdir}/third-run-page-{index}.json") as f:
-        #     append_entries(f, running_table)
-        # with open(f"{subdir}/fourth-run-page-{index}.json") as f:
-        #     append_entries(f, running_table)
-        # with open(f"{subdir}/fifth-run-page-{index}.json") as f:
-        #     append_entries(f, running_table)
 
     print(f"There are {len(running_table)} total components")
     print()
@@ -97,8 +91,11 @@ def main(subdir="pages"):
                 library_sigil = ""
                 if entry.library_type == "base":
                     library_sigil = " *"
+                stock_string = ""
+                if entry.stock != 0:
+                    stock_string = f" ({entry.stock})"
                 print(
-                    f"    {entry.part_number}: {entry.description} -- {entry.brand} / {entry.lcsc_part_number}{library_sigil}"
+                    f"    {entry.part_number}: {entry.description} -- {entry.brand} / {entry.lcsc_part_number}{library_sigil}{stock_string}"
                 )
 
 
